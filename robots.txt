@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: 360Spider
+Disallow: /

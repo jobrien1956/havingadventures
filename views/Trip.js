@@ -1,4 +1,6 @@
 // Trip.js - Last updated: 2026-03-23 - Trip page renderer - oninit/onbeforeupdate reload fix, footer Instagram only, redirect support, margin-top navbar fix, backgroundImg basePath fix, introDescr empty string fix
+// The fields Trip.js actually uses are backgroundImg, pageTitle, pageSubtitle, summ, intro, introDescr, introPic1/2, endMap, footerPic1/2, and the adventureDay array contents.
+
 HA.views.Trip = {
 	oninit: function(vnode) {
 		vnode.state.tripName = m.route.param('tripName');
