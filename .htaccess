@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^https?://(www\.)?havingadventures\.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,NC]
