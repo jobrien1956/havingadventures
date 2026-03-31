@@ -75,7 +75,7 @@ jobs:
           protocol:     sftp
           port:         22
           local-dir:    ./
-          server-dir:   /public_html/
+          server-dir:   /home/jamobr4/havingadventures.com
           exclude: |
             **/.git/**
             **/.github/**
