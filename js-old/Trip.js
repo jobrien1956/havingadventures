@@ -3,7 +3,7 @@ HA.views.Trip = (vnode) => {
 	let tripData = undefined
 	let loadError = undefined
 	console.log('in trip', tripName)
-	// FIX: use HA.config.dataUrl instead of hardcoded /newHA/ prefix
+	// FIX: use HA.config.dataUrl instead of hardcoded / prefix
 	m.request({
 		url: HA.config.dataUrl + 'json/ha-' + tripName + '.json'
 	}).then(function (response) {
